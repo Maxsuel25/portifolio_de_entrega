@@ -1,0 +1,16 @@
+.projectSection {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 2rem;
+}
+.projectSection h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+@media(min-width:450px){
+    .projectSection{
+        width: 898.7px;
+    }
+}

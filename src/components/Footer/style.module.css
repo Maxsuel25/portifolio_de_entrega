@@ -1,0 +1,36 @@
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-white);
+    border-top: 1px solid var(--color-white);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+}
+
+.footer div div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer h2 {
+    margin-top: 2rem;
+}
+
+.select {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (min-width:450px) {
+    .footer {
+        margin-top: 3rem;
+        width: 898.7px;
+        display: flex;
+        flex-direction: row;
+    }
+}

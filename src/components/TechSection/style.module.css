@@ -1,0 +1,15 @@
+.techSection{
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width:450px){
+    .techSection{
+        width: 56.1688rem;
+        margin-top: 8rem;
+    }
+    .techSection h2{
+        margin-bottom: 2rem;
+       
+    }
+}

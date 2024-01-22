@@ -1,0 +1,48 @@
+.title1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.title2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.title3 {
+    font-size: 1.375rem;
+    color: var(--color-white);
+}
+.nav{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.paragraph {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-white);
+}
+
+.link {
+    font-size: 1rem;
+    color: #7B61FF;
+}
+
+.link:hover {
+    color: #7C91FF;
+}
+
+label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.user {
+    font-family: 'Poppins';
+    font-size: 0.9375rem;
+    color: #6880FF;
+    font-weight: 400;
+}

@@ -1,0 +1,13 @@
+.btn {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    width: 130px;
+    height: 39px;
+    top: 1381px;
+    left: 138px;
+    border-radius: 12px;
+    border: 1px;
+}
+.btn:hover{
+    background-color: var(--color-primary-hover);
+}

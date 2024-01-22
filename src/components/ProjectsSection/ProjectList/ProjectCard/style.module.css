@@ -1,0 +1,20 @@
+.ProjectCard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--color-white);
+}
+
+.ProjectCard p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media (min-width:320px){
+    .ProjectCard{
+        width: 48%;
+    }
+}

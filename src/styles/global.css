@@ -1,0 +1,24 @@
+:root {
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--color-black);
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 333px;
+    margin: 0 auto;
+}
+@media (min-width:450px){
+    main{
+        max-width: 900px;
+        min-width: 100%;
+        padding-top: 13vh;
+    }
+}

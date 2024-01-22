@@ -1,0 +1,13 @@
+.TecList{
+    display: flex;
+    flex-direction: column;
+}  
+
+@media(min-width:450px){
+    .TecList{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
